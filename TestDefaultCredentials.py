@@ -30,7 +30,7 @@ def TelnetLogin(host, port, username, password):
         print(f"Login Failed {username}, {password}")
 
 
-host = "192.168.0.167"
+host = "192.168.0.0"
 with open("defaults.txt", "r") as f:
     for line in f:
         vals = line.split(sep=",")
